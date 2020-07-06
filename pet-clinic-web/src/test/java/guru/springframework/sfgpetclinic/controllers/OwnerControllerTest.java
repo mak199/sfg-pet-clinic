@@ -46,24 +46,24 @@ class OwnerControllerTest {
     @Test
     void listOwners() throws Exception{
         when(ownerService.findAll()).thenReturn(owners);
-        mockMvc.perform(get("/templates/owners/owners"))
+        mockMvc.perform(get("/owners"))
                 .andExpect(status().isOk())
-                .andExpect(view().name("templates/owners/owners/index"))
-                .andExpect(model().attribute("templates/owners/owners",hasSize(2)));
+                .andExpect(view().name("owners/index"))
+                .andExpect(model().attribute("owners",hasSize(2)));
     }
 
     @Test
     void listOwnersByIndex() throws Exception{
         when(ownerService.findAll()).thenReturn(owners);
-        mockMvc.perform(get("/templates/owners/owners"))
+        mockMvc.perform(get("/owners"))
                 .andExpect(status().isOk())
-                .andExpect(view().name("templates/owners/owners/index"))
-                .andExpect(model().attribute("templates/owners/owners",hasSize(2)));
+                .andExpect(view().name("owners/index"))
+                .andExpect(model().attribute("owners",hasSize(2)));
     }
 
     @Test
     void findOwners() throws Exception{
-        mockMvc.perform(get("/templates/owners/owners/find"))
+        mockMvc.perform(get("/owners/find"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("notImplemented"));
         verifyZeroInteractions(ownerService);
