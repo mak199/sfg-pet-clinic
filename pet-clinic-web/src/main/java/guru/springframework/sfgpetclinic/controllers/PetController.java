@@ -22,6 +22,8 @@ public class PetController {
     private final OwnerService ownerService;
     private final PetTypeService petTypeService;
 
+    private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets/createOrUpdatePetForm";
+
     public PetController(PetService petService, OwnerService ownerService, PetTypeService petTypeService) {
         this.petService = petService;
         this.ownerService = ownerService;
