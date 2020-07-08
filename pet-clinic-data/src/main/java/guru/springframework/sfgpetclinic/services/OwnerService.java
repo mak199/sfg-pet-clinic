@@ -13,6 +13,7 @@ public interface OwnerService extends CrudService<Owner,Long> {
 
     List<Owner> findAllByLastNameLike(String lastName);
 
+
     /*Owner findById(Long id);
     Owner save(Owner owner);
     Set<Owner> findAll();*/
