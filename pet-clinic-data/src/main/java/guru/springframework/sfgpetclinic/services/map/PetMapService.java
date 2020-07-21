@@ -11,6 +11,10 @@ import java.util.Set;
 @Profile({"default","map"})
 public class PetMapService extends AbstractMapService<Pet,Long> implements PetService {
 
+    public PetMapService(){
+
+    }
+
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
