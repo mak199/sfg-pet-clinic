@@ -5,6 +5,7 @@
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/VisitRepository.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java
+/home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetMapService.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetMapService.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/PetRepository.java
@@ -12,7 +13,6 @@
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaService.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java
-/home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetServiceMap.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/VetService.java
 /home/muhammad/Java/Java Workspace/sfg-pet-clinic/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/AbstractMapService.java
